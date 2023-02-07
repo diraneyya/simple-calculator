@@ -8,7 +8,51 @@
 </head>
 <body>
     <script>
-        console.log("Orwa is logging something to the console from his index.html file.")
+        // number
+        let firstValue = +prompt('give number 1');
+        // string of a single character
+        let operator = prompt('give operator');
+        // number
+        let secondValue = +prompt('give number 2');
+
+        if (operator === '+') {
+            alert("it is an addition!");
+        }
+        else if (operator === '-') {
+            alert("it is a subtraction!");
+        }
+        else if (operator === '*') {
+            alert('it is a multiplication');
+        }
+        else if (operator === '/') {
+            alert('it is a division');
+        }
+        else {
+            alert('the operator you entered is not supported');
+        }
+        
+        switch (operator) {
+            case '+':
+                // this will execute if operator === '+'
+                break;
+            
+            case '-':
+                // this will execute if operator === '-'
+                break;
+            
+            case '/':
+                // this will execute if operator === '/'
+                break;
+            
+            case '*':
+                // this will execute if operator === '*'
+                break;
+        
+            default:
+                // this will execute if it is neither any one of the above
+                break;
+        }
+
     </script>
 </body>
 </html>
